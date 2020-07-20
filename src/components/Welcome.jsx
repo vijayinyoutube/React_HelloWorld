@@ -6,7 +6,7 @@ class Welcome extends Component {
     return (
       <React.Fragment>
         <h1>Hey., there! 👋</h1>
-        <h6>from Statefull Class Component</h6>
+        <h6>from Statefull Class Component {this.props.name}</h6>
       </React.Fragment>
     );
   }
