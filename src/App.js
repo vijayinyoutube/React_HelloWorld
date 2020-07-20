@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Greet from "./components/Greet.jsx";
 import Welcome from "./components/Welcome.jsx";
 import Greet_By_Name from "./components/Greet_By_Name";
 import NavBar from "./components/NavBar";
+import Message from "./components/message";
 
 function App() {
   return (
@@ -31,6 +31,14 @@ function App() {
       </Greet_By_Name>
       <Greet_By_Name name="Robert" />
       <Greet_By_Name name="Bell" />
+
+      <hr></hr>
+      <h4>
+        <div className="badge badge-primary">SCC : Maintaining States</div>
+      </h4>
+      <hr></hr>
+
+      <Message></Message>
 
       <hr></hr>
     </div>
