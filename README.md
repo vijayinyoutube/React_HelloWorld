@@ -1,6 +1,6 @@
 # React Application
 
-A ```Hello World``` program using React
+A simple Get Started with React Repo!
 
 
 ## App Result
