@@ -1,16 +1,6 @@
-# React Application
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-A simple Get Started with React Repo!
-
-
-## App Result
-<img src="https://user-images.githubusercontent.com/58719230/87876866-79c13900-c9f8-11ea-891d-6b74ea53c3a3.png">
-
-
-#### SFC
------------------
-<img src="https://user-images.githubusercontent.com/58719230/87902846-3f977c00-ca78-11ea-987b-b58b3497b73a.png">
-
+## Available Scripts
 
 #### Props
 -----------------
@@ -20,4 +10,5 @@ A simple Get Started with React Repo!
 #### ChangeState
 -----------------
 <img src="https://user-images.githubusercontent.com/58719230/87935211-4b059a00-caae-11ea-87fa-a5480e07ac2d.png">
+
 

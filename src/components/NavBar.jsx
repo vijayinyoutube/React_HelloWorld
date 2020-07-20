@@ -8,7 +8,7 @@ const style = {
 
 const NavBar = (prpos) => {
   return (
-    <nav style={style} className="navbar navbar-light bg-secondary">
+    <nav style={style} className="navbar navbar-light bg-primary">
       {prpos.name}
     </nav>
   );
