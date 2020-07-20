@@ -21,3 +21,7 @@ A simple Get Started with React Repo!
 -----------------
 <img src="https://user-images.githubusercontent.com/58719230/87935211-4b059a00-caae-11ea-87fa-a5480e07ac2d.png">
 
+#### Counter Increment
+-----------------
+<img src="https://user-images.githubusercontent.com/58719230/87953245-6bdae900-cac8-11ea-995b-21cb261010da.png">
+
