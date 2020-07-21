@@ -6,6 +6,8 @@ import Greet_By_Name from "./components/Greet_By_Name";
 import NavBar from "./components/NavBar";
 import Message from "./components/message";
 import Counter from "./components/Counter";
+import FunClick from "./components/FunClick";
+import ClassClick from "./components/ClassClick";
 
 function App() {
   return (
@@ -48,6 +50,22 @@ function App() {
       <hr></hr>
 
       <Counter></Counter>
+
+      <hr></hr>
+      <h4>
+        <div className="badge badge-primary">Function Event handlers</div>
+      </h4>
+      <hr></hr>
+
+      <FunClick></FunClick>
+
+      <hr></hr>
+      <h4>
+        <div className="badge badge-primary">Class Event handlers</div>
+      </h4>
+      <hr></hr>
+
+      <ClassClick></ClassClick>
 
       <hr></hr>
     </div>
