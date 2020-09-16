@@ -5,7 +5,7 @@ function NameList() {
     const Person = [
         {
             name: "Vijay",
-            skill: "Flutter",
+            skill: "Flutter and React",
         },
         {
             name: "Santy",
