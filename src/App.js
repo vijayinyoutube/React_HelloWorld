@@ -7,12 +7,6 @@ import NavBar from "./components/NavBar";
 import Message from "./components/message";
 import Counter from "./components/Counter";
 import NameList from "./components/NameList";
-import FunClick from "./components/FunClick";
-import ClassClick from "./components/ClassClick";
-import EventBind from "./components/EventBind";
-import ParentComponent from "./components/ParentComponent";
-import UserGreetings from "./components/UserGreetings";
-
 
 function App() {
   return (
@@ -58,51 +52,9 @@ function App() {
 
       <hr></hr>
       <h4>
-
         <div className="badge badge-primary">List Rendering</div>
       </h4>
       <NameList></NameList>
-      <hr></hr>
-
-
-        <div className="badge badge-primary">Function Event handlers</div>
-      </h4>
-      <hr></hr>
-
-      <FunClick></FunClick>
-
-      <hr></hr>
-      <h4>
-        <div className="badge badge-primary">Class Event handlers</div>
-      </h4>
-      <hr></hr>
-
-      <ClassClick></ClassClick>
-
-      <hr></hr>
-      <h4>
-        <div className="badge badge-primary">Event bind</div>
-      </h4>
-      <hr></hr>
-
-      <EventBind></EventBind>
-
-      <hr></hr>
-      <h4>
-        <div className="badge badge-primary">Parent Child Event Trigger</div>
-      </h4>
-      <hr></hr>
-
-      <ParentComponent></ParentComponent>
-
-      <hr></hr>
-      <h4>
-        <div className="badge badge-primary">Conditional Stmt</div>
-      </h4>
-      <hr></hr>
-
-      <UserGreetings></UserGreetings>
-
       <hr></hr>
 
     </div>
@@ -110,3 +62,4 @@ function App() {
 }
 
 export default App;
+
