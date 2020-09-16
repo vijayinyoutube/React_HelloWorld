@@ -16,7 +16,7 @@ class Message extends Component {
     return (
       <React.Fragment>
         <h3>
-          {this.state.message} {this.props.children}
+          {this.state.message}
         </h3>
 
         <button
