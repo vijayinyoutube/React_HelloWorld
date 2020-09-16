@@ -6,6 +6,7 @@ import Greet_By_Name from "./components/Greet_By_Name";
 import NavBar from "./components/NavBar";
 import Message from "./components/message";
 import Counter from "./components/Counter";
+import NameList from "./components/NameList";
 
 function App() {
   return (
@@ -50,6 +51,12 @@ function App() {
       <Counter></Counter>
 
       <hr></hr>
+      <h4>
+        <div className="badge badge-primary">List Rendering</div>
+      </h4>
+      <NameList></NameList>
+      <hr></hr>
+
     </div>
   );
 }
