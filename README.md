@@ -24,4 +24,3 @@ A simple Get Started with React Repo!
 #### Counter Increment
 -----------------
 <img src="https://user-images.githubusercontent.com/58719230/87953245-6bdae900-cac8-11ea-995b-21cb261010da.png">
-
