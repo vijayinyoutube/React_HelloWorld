@@ -8,6 +8,7 @@ import Message from "./components/message";
 import Counter from "./components/Counter";
 import NameList from "./components/NameList";
 import StyleSheet from "./components/StyleSheet.jsx";
+import InLine from "./components/inLine";
 
 function App() {
   return (
@@ -59,6 +60,9 @@ function App() {
       <hr></hr>
 
       <StyleSheet primary={false}></StyleSheet>
+      <hr></hr>
+
+      <InLine></InLine>
       <hr></hr>
     </div>
   );
