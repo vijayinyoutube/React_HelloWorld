@@ -4,12 +4,28 @@ import { FaBell } from "react-icons/fa";
 class Message extends Component {
   state = {
     message: "Welcome Visitor",
+    count: 0,
+    buttonText: "Subscribe"
   };
 
   handleSubscription = () => {
-    this.setState({
-      message: "Thanks for Subscribing!",
-    });
+    if (this.state.count % 2 == 0) {
+      this.setState({
+        message: "Thanks for Subscribing!",
+        buttonText: "UnSubscribe",
+        count: this.state.count + 1,
+      });
+
+    }
+    else {
+      this.setState({
+        message: "Welcome Visitor!",
+        buttonText: "Subscribe",
+        count: this.state.count + 1,
+      });
+    }
+
+    console.log(this.state.count);
   };
 
   render() {
@@ -29,7 +45,7 @@ class Message extends Component {
             <FaBell size="18.5"></FaBell>
           </span>
           <span>&nbsp;</span>
-          Subscribe
+          {this.state.buttonText}
         </button>
       </React.Fragment>
     );
