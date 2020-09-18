@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar";
 import Message from "./components/message";
 import Counter from "./components/Counter";
 import NameList from "./components/NameList";
+import StyleSheet from "./components/StyleSheet.jsx";
 
 function App() {
   return (
@@ -57,6 +58,8 @@ function App() {
       <NameList></NameList>
       <hr></hr>
 
+      <StyleSheet primary={false}></StyleSheet>
+      <hr></hr>
     </div>
   );
 }
