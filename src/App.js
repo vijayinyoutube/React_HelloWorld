@@ -9,6 +9,7 @@ import Counter from "./components/Counter";
 import NameList from "./components/NameList";
 import StyleSheet from "./components/StyleSheet.jsx";
 import InLine from "./components/inLine";
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -63,6 +64,9 @@ function App() {
       <hr></hr>
 
       <InLine></InLine>
+      <hr></hr>
+
+      <Form></Form>
       <hr></hr>
     </div>
   );
