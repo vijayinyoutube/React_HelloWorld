@@ -27,4 +27,4 @@ A simple Get Started with React Repo!
 
 #### Styling and Event handlers
 ----------------------------
-<img src="https://user-images.githubusercontent.com/58719230/93771462-27d8a180-fc3b-11ea-9c8e-02f16b923166.png">
+<img src="https://user-images.githubusercontent.com/58719230/93771693-7be38600-fc3b-11ea-9cfe-282012f85659.png">
