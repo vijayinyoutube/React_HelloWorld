@@ -10,6 +10,7 @@ import NameList from "./components/NameList";
 import StyleSheet from "./components/StyleSheet.jsx";
 import InLine from "./components/inLine";
 import Form from "./components/Form";
+import CardsClass from "./components/Cards";
 
 function App() {
   return (
@@ -68,6 +69,8 @@ function App() {
 
       <Form></Form>
       <hr></hr>
+
+      <CardsClass></CardsClass>
     </div>
   );
 }
